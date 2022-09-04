@@ -13,3 +13,6 @@ RUN apt-get update && \
 RUN useradd -ms /bin/bash developer
 USER developer
 WORKDIR /home/developer
+
+# Mount for docker-in-docker
+VOLUME [ "/var/lib/docker" ]
