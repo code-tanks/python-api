@@ -8,12 +8,12 @@
         "python.formatting.autopep8Args": [
             "--max-line-length=200"
         ],
-        "tws.highlightTrailingWhiteSpace": true,
+        "tws.highlightTrailingWhiteSpace": true
     },
     "extensions": [
         "ms-python.python",
         "jkiviluoto.tws"
     ],
     "forwardPorts": [],
-    "postCreateCommand": "pip install -r requirements"
+    "postCreateCommand": "pip install -r .devcontainer/requirements.txt"
 }
