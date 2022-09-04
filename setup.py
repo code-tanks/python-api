@@ -27,4 +27,7 @@ setup(
     license='Apache Software License 2.0',
     packages=['codetanks'],
     zip_safe=False,
+    install_requires=[
+        "fastapi==0.82.0",
+    ],
 )

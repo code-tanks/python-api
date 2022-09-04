@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y software-properties-common --no-install-recommends && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update && \
-    apt-get install -y wget curl git python3.9 python3-distutils gpg-agent --no-install-recommends && \
+    apt-get install -y wget curl git python3.10 python3-distutils gpg-agent --no-install-recommends && \
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
     python3 get-pip.py && \
     pip install pylint autopep8
