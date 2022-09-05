@@ -2,6 +2,11 @@ from codetanks import *
 
 
 class MyTank(BaseTank):
+    def __init__(self):
+        super().__init__()
+
+        print('Running my tank!')
+
     def run(self):
         # TODO
         pass
