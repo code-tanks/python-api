@@ -12,5 +12,5 @@ class BaseTank(ABC):
         pass
 
     @abstractmethod
-    def on_event(self, event_type, info):
+    def on_event(self, event):
         pass

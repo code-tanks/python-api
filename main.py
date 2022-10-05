@@ -25,7 +25,7 @@ def request_commands():
 @app.get("/request_commands_by_event")
 async def request_commands_by_event(info: Request):
     event = await info.json()
-    bot.on_event(event['event_type'], event['info'])
+    bot.on_event(event)
 
     commands = bot.commands[:]
 
