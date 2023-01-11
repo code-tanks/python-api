@@ -1,3 +1,6 @@
+"""Define commands for code-tanks
+"""
+
 NONE = 0
 MOVE_FORWARD = 1 << 0
 MOVE_BACKWARD = 1 << 1
