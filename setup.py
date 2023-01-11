@@ -28,6 +28,6 @@ setup(
     packages=['codetanks'],
     zip_safe=False,
     install_requires=[
-        "fastapi==0.82.0",
+        "fastapi==0.89.1",
     ],
 )
