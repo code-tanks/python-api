@@ -1,5 +1,5 @@
 {
-    "name": "homey-server-dev-container",
+    "name": "code-tanks-python-devcontainer",
     "image": "ghcr.io/code-tanks/code-tanks-python-devcontainer:latest",
     "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
