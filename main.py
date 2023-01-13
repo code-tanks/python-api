@@ -29,7 +29,7 @@ def request_commands():
     return commands
 
 
-@app.get("/request_commands_by_event")
+@app.post("/request_commands_by_event")
 async def request_commands_by_event(info: Request):
     """Returns buffered commands by event and then clears them
     """
