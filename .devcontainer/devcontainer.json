@@ -1,5 +1,5 @@
 {
-    "name": "homey-server-dev-container",
+    "name": "code-tanks-python-devcontainer",
     "image": "ghcr.io/code-tanks/code-tanks-python-devcontainer:latest",
     "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
@@ -9,7 +9,7 @@
             "--max-line-length=200"
         ],
         "tws.highlightTrailingWhiteSpace": true,
-        "python.pythonPath": "/usr/bin/python3"
+        "python.defaultInterpreterPath": "/usr/bin/python3"
     },
     "extensions": [
         "ms-python.python",
