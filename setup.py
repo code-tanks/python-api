@@ -19,7 +19,7 @@ from setuptools import setup
 
 setup(
     name='codetanks',
-    version='0.1.0',
+    version='0.1.3',
     description='The Python API for Code-Tanks',
     url='http://github.com/code-tanks/python-api',
     author='Derrick Liu',
