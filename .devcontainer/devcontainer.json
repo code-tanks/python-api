@@ -1,19 +1,23 @@
 {
     "name": "code-tanks-python-devcontainer",
     "image": "ghcr.io/code-tanks/code-tanks-python-devcontainer:latest",
-    "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash",
-        "python.formatting.provider": "autopep8",
-        "editor.formatOnSave": true,
-        "python.formatting.autopep8Args": [
-            "--max-line-length=200"
-        ],
-        "tws.highlightTrailingWhiteSpace": true,
-        "python.defaultInterpreterPath": "/usr/bin/python3"
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "python.formatting.provider": "autopep8",
+                "editor.formatOnSave": true,
+                "python.formatting.autopep8Args": [
+                    "--max-line-length=200"
+                ],
+                "tws.highlightTrailingWhiteSpace": true,
+                "python.defaultInterpreterPath": "/usr/bin/python3"
+            },
+            "extensions": [
+                "ms-python.python",
+                "jkiviluoto.tws"
+            ]
+        }
     },
-    "extensions": [
-        "ms-python.python",
-        "jkiviluoto.tws"
-    ],
     "postCreateCommand": "pip install -r .devcontainer/requirements.txt"
 }
