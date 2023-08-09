@@ -8,3 +8,7 @@ updates:
     directory: "/.devcontainer"
     schedule:
       interval: "daily"      
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "daily"
